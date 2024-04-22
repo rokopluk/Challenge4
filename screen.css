@@ -1,1 +1,45 @@
 /* Add screen styles below */
+:root{
+    --card-radius: 20px;
+    --card-font-color: #000000;
+    --planet-width: 100px;
+    --planet-height: 100px;
+    --planet-border-radius: 50%;
+    --planet-color: #fcfcfc;
+    --planet-margin: 0 auto;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    color: #eaeaf0;
+    background: #2D3142;
+    padding: 0 40px;
+    text-align: left;
+}
+
+header{
+    padding-bottom: 100px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 2fr repeat(4, 1fr);
+    grid-gap: 20px;
+    text-align: center;
+}
+
+.module {
+    background: #ccc;
+}
+
+.module.large{
+    grid-row: span 2;
+    border-radius: var(--card-radius);
+    color: var(--card-font-color);
+}
+
+.module.regular{
+    grid-column: span 1;
+    border-radius: var(--card-radius);
+    color: var(--card-font-color);
+}
