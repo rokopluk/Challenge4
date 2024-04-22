@@ -2,17 +2,12 @@
 :root{
     --card-radius: 20px;
     --card-font-color: #000000;
-    --planet-width: 100px;
-    --planet-height: 100px;
-    --planet-border-radius: 50%;
-    --planet-color: #fcfcfc;
-    --planet-margin: 0 auto;
 }
 
 body {
     font-family: Helvetica, sans-serif;
     color: #eaeaf0;
-    background: #2D3142;
+    background: #417232;
     padding: 0 40px;
     text-align: left;
 }
